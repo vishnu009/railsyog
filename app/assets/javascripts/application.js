@@ -12,5 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= requite bootstrap
+//= require bootstrap
+ $('#myCarousel').carousel({
+      interval: 5000
+    })
+//= require bootstrap-carousel
 //= require_tree .
