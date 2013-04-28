@@ -3,4 +3,8 @@ class SiteController < ApplicationController
   end
   def about
   end
+  def contact
+  end
+  def rules
+  end
 end

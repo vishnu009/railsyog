@@ -16,5 +16,12 @@
  $('#myCarousel').carousel({
       interval: 5000
     })
+ $(function() {
+   $('.navbar .nav > li > a').click(function(e){
+       $('.navbar .nav > li.active').removeClass('active')
+       $(this).parent('li').addClass('active')
+    });
+  });
+
 //= require bootstrap-carousel
 //= require_tree .

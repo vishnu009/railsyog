@@ -9,6 +9,7 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require font-awesome
  *= require_tree .
  */
 html, body, div, ul {
@@ -93,19 +94,17 @@ h3 {
 #challenge{
 	margin-left: 0px;
 }
-	
-#myCarousel {
-      margin-top: 21px;
-      padding-top: 31px;
-      }
 
-    #footer{
-    	text-align: center;
+#myCarousel {
+  margin-top: 21px;
+  padding-top: 31px;
+  }
+  #footer{
+    text-align: center;
     }
 .founder{
 	margin-left: 0px;
 }
-
 .sm {font-size:10px; color:#000; margin-bottom:2px}
 
  .mylogo{
