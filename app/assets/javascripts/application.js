@@ -22,6 +22,6 @@
        $(this).parent('li').addClass('active')
     });
   });
-
 //= require bootstrap-carousel
+//= require vendor_js
 //= require_tree .
